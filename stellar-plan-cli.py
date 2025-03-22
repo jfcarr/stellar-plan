@@ -1,6 +1,8 @@
 import argparse
+from datetime import datetime
 
 import astropy.units as u
+import pytz
 from astropy.coordinates import EarthLocation
 from astropy.time import Time
 from rich.console import Console
@@ -29,10 +31,10 @@ def init_args_parse():
         help="Date/time of observation plan. Example: '2025-4-5 21:00:00'",
     )
     parser.add_argument(
-        "--utcoffset",
-        type=int,
+        "--timezone",
+        type=str,
         required=True,
-        help="UTC offset for local time. Example: -4 for Eastern Daylight Savings Time",
+        help="Timezone of observer. Example: 'America/New_York'",
     )
     parser.add_argument(
         "--height", type=int, help="Height of observing location, in meters"
@@ -65,7 +67,6 @@ def display_table():
             f"{result.magnitude}" if result.magnitude != -99 else "",
         )
 
-    print(f"Observation time (local) = {observer_time + utcoffset}")
     console.print(table)
 
 
@@ -75,8 +76,8 @@ if __name__ == "__main__":
     observer_latitude = args.latitude
     observer_longitude = args.longitude
     observer_height_in_meters = args.height if args.height else 0
-    utc_offset_value = args.utcoffset
     observer_time_string = args.datetime
+    observer_timezone_string = args.timezone
 
     deep_sky_objects = load_dso()
     solar_system_objects = load_sso()
@@ -86,8 +87,13 @@ if __name__ == "__main__":
         lon=observer_longitude * u.deg,
         height=observer_height_in_meters * u.m,
     )
-    utcoffset = utc_offset_value * u.hour
-    observer_time = Time(observer_time_string) - utcoffset
+
+    naive_datetime = datetime.strptime(observer_time_string, "%Y-%m-%d %H:%M:%S")
+
+    timezone = pytz.timezone(observer_timezone_string)
+    localized_datetime = timezone.localize(naive_datetime)
+
+    observer_time = Time(localized_datetime)
 
     results = []
 
@@ -97,4 +103,5 @@ if __name__ == "__main__":
     for sso in solar_system_objects:
         get_sso_info(sso, args.visible, observer_time, observer_location, results)
 
+    print(f"Observation time (local) = {observer_time_string}")
     display_table()

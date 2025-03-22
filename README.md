@@ -1,6 +1,6 @@
 # Stellar Plan
 
-Stellar Plan uses Astropy to generate an observing plan with information about bright stars, deep sky objects, and solar system objects.
+Stellar Plan uses [Astropy](https://www.astropy.org/) to generate an observing plan with information about bright stars, deep sky objects, and solar system objects.
 
 ## Setup
 

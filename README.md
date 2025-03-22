@@ -4,9 +4,13 @@ Stellar Plan uses [Astropy](https://www.astropy.org/) to generate an observing p
 
 ## Setup
 
-Install [uv](https://docs.astral.sh/uv/), if you haven't already.  After cloning, create a virtual environment and sync the packages:
+Install [uv](https://docs.astral.sh/uv/), if you haven't already.  Then, clone the project, initialize a virtual environment, and sync the packages:
 
 ```bash
+git clone https://github.com/jfcarr/stellar-plan.git
+
+cd stellar-plan
+
 uv venv
 
 uv sync

@@ -1,1 +1,1 @@
-# stellar-plan
+# Stellar Plan

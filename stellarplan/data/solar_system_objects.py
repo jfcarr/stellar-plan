@@ -53,6 +53,7 @@ def get_sso_info(
         results.append(
             ResultObject(
                 sso_object.description,
+                "",
                 sso_object.type,
                 bodyinfo_altaz.alt,
                 bodyinfo_altaz.az,

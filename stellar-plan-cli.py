@@ -49,6 +49,7 @@ def display_table():
 
     table = Table(show_header=True, header_style="bold magenta")
     table.add_column("Description")
+    table.add_column("Constellation")
     table.add_column("Type")
     table.add_column("Altitude")
     table.add_column("Azimuth")
@@ -57,6 +58,7 @@ def display_table():
     for result in sorted(results, key=lambda r: (r.object_type, r.description)):
         table.add_row(
             result.description,
+            result.constellation,
             result.object_type,
             format_altitude(result.altitude),
             f"{result.azimuth:.2f} ({azimuth_to_cardinal(result.azimuth)})",

@@ -110,6 +110,7 @@ def get_dso_info(
         results.append(
             ResultObject(
                 dso_object.description,
+                dso_object.constellation,
                 dso_object.type,
                 scinfo_altaz.alt,
                 scinfo_altaz.az,

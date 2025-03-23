@@ -42,6 +42,9 @@ def init_args_parse():
     parser.add_argument(
         "--visible", action="store_true", help="Only include visible objects in plan"
     )
+    parser.add_argument(
+        "--roundrobin", action="store_true", help="Sort results by azimuth"
+    )
 
     return parser.parse_args()
 
@@ -57,7 +60,10 @@ def display_table():
     table.add_column("Azimuth")
     table.add_column("Magnitude")
 
-    for result in sorted(results, key=lambda r: (r.object_type, r.description)):
+    for result in sorted(
+        results,
+        key=lambda r: (r.azimuth if args.roundrobin else r.object_type, r.description),
+    ):
         table.add_row(
             result.description,
             result.constellation,

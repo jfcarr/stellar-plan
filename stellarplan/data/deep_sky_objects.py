@@ -26,8 +26,20 @@ def load_dso():
     deep_sky_objects.extend(
         [
             DeepSkyObject(
+                "Achernar", "Achernar", "Eridanus", "eruptive variable star", 0.42
+            ),
+            DeepSkyObject("Acrux", "Acrux", "Crux", "double star", 0.76),
+            DeepSkyObject(
                 "Aldebaran", "Aldebaran", "Taurus", "double star, variable star", 0.86
             ),
+            DeepSkyObject(
+                "Alnilam",
+                "Alnilam",
+                "Orion",
+                "double star, pulsating variable star",
+                1.65,
+            ),
+            DeepSkyObject("Alnitak", "Alnitak", "Orion", "double star", 1.85),
             DeepSkyObject(
                 "Altair",
                 "Altair",
@@ -43,6 +55,7 @@ def load_dso():
                 0.6,
             ),
             DeepSkyObject("Arcturus", "Arcturus", "Bootes", "double star", -0.05),
+            DeepSkyObject("Bellatrix", "Bellatrix", "Orion", "double star", 1.60),
             DeepSkyObject(
                 "Betelgeuse",
                 "Betelgeuse",
@@ -52,6 +65,27 @@ def load_dso():
             ),
             DeepSkyObject("Capella", "Capella", "Auriga", "double star", 0.08),
             DeepSkyObject("Canopus", "Canopus", "Carina", "double star", -0.74),
+            DeepSkyObject("Castor", "Castor", "Gemini", "double star", 1.90),
+            DeepSkyObject(
+                "Deneb", "Deneb", "Cygnus", "double star, pulsating variable star", 1.25
+            ),
+            DeepSkyObject(
+                "Fomalhaut", "Fomalhaut", "Piscis Austrinus", "double star", 1.16
+            ),
+            DeepSkyObject(
+                "Hadar",
+                "Hadar",
+                "Centaurus",
+                "double star, pulsating variable star",
+                0.61,
+            ),
+            DeepSkyObject(
+                "Mintaka",
+                "Mintaka",
+                "Orion",
+                "double star, eclipsing binary system",
+                2.40,
+            ),
             DeepSkyObject(
                 "Polaris",
                 "Polaris (North Star)",
@@ -59,7 +93,9 @@ def load_dso():
                 "double star, pulsating variable star",
                 1.98,
             ),
+            DeepSkyObject("Pollux", "Pollux", "Gemini", "double star", 1.14),
             DeepSkyObject("Procyon", "Procyon", "Canis Minor", "double star", 0.34),
+            DeepSkyObject("Regulus", "Regulus", "Leo", "double star", 1.35),
             DeepSkyObject(
                 "Rigel", "Rigel", "Orion", "double star, pulsating variable star", 0.13
             ),

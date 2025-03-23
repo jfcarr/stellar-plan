@@ -1,0 +1,37 @@
+[
+    {
+        "name": "M3",
+        "description": "NGC 5272",
+        "constellation": "Canes Venatici",
+        "type": "globular star cluster",
+        "magnitude": 3.40
+    },
+    {
+        "name": "M31",
+        "description": "Andromeda Galaxy",
+        "constellation": "Andromeda",
+        "type": "galaxy",
+        "magnitude": 3.40
+    },
+    {
+        "name": "M33",
+        "description": "Triangulum Galaxy",
+        "constellation": "Triangulum",
+        "type": "galaxy",
+        "magnitude": 5.70
+    },
+    {
+        "name": "M42",
+        "description": "Great Orion Nebula",
+        "constellation": "Orion",
+        "type": "nebula",
+        "magnitude": 4.00
+    },
+    {
+        "name": "M45",
+        "description": "Pleiades - Seven Sisters",
+        "constellation": "Taurus",
+        "type": "cluster (with nebulosity)",
+        "magnitude": 1.20
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "name": "moon",
+        "description": "Luna (Earth's Moon)",
+        "type": "moon"
+    },
+    {
+        "name": "mercury",
+        "description": "Mercury",
+        "type": "planet"
+    },
+    {
+        "name": "venus",
+        "description": "Venus",
+        "type": "planet"
+    },
+    {
+        "name": "mars",
+        "description": "Mars",
+        "type": "planet"
+    },
+    {
+        "name": "jupiter",
+        "description": "Jupiter",
+        "type": "planet"
+    },
+    {
+        "name": "saturn",
+        "description": "Saturn",
+        "type": "planet"
+    }
+]

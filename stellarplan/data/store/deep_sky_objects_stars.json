@@ -1,0 +1,177 @@
+[
+    {
+        "name": "Achernar",
+        "description": "Achernar",
+        "constellation": "Eridanus",
+        "type": "eruptive variable star",
+        "magnitude": 0.42
+    },
+    {
+        "name": "Acrux",
+        "description": "Acrux",
+        "constellation": "Crux",
+        "type": "double star",
+        "magnitude": 0.76
+    },
+    {
+        "name": "Aldebaran",
+        "description": "Aldebaran",
+        "constellation": "Taurus",
+        "type": "double star, variable star",
+        "magnitude": 0.86
+    },
+    {
+        "name": "Alnilam",
+        "description": "Alnilam",
+        "constellation": "Orion",
+        "type": "double star, pulsating variable star",
+        "magnitude": 1.65
+    },
+    {
+        "name": "Alnitak",
+        "description": "Alnitak",
+        "constellation": "Orion",
+        "type": "double star",
+        "magnitude": 1.85
+    },
+    {
+        "name": "Altair",
+        "description": "Altair",
+        "constellation": "Aquila",
+        "type": "double star, pulsating variable star",
+        "magnitude": 0.76
+    },
+    {
+        "name": "Antares",
+        "description": "Antares",
+        "constellation": "Scorpius",
+        "type": "double star, pulsating variable star",
+        "magnitude": 0.6
+    },
+    {
+        "name": "Arcturus",
+        "description": "Arcturus",
+        "constellation": "Bootes",
+        "type": "double star",
+        "magnitude": -0.05
+    },
+    {
+        "name": "Bellatrix",
+        "description": "Bellatrix",
+        "constellation": "Orion",
+        "type": "double star",
+        "magnitude": 1.60
+    },
+    {
+        "name": "Betelgeuse",
+        "description": "Betelgeuse",
+        "constellation": "Orion",
+        "type": "double star, pulsating variable star",
+        "magnitude": 0.50
+    },
+    {
+        "name": "Capella",
+        "description": "Capella",
+        "constellation": "Auriga",
+        "type": "double star",
+        "magnitude": 0.08
+    },
+    {
+        "name": "Canopus",
+        "description": "Canopus",
+        "constellation": "Carina",
+        "type": "double star",
+        "magnitude": -0.74
+    },
+    {
+        "name": "Castor",
+        "description": "Castor",
+        "constellation": "Gemini",
+        "type": "double star",
+        "magnitude": 1.90
+    },
+    {
+        "name": "Deneb",
+        "description": "Deneb",
+        "constellation": "Cygnus",
+        "type": "double star, pulsating variable star",
+        "magnitude": 1.25
+    },
+    {
+        "name": "Fomalhaut",
+        "description": "Fomalhaut",
+        "constellation": "Piscis Austrinus",
+        "type": "double star",
+        "magnitude": 1.16
+    },
+    {
+        "name": "Hadar",
+        "description": "Hadar",
+        "constellation": "Centaurus",
+        "type": "double star, pulsating variable star",
+        "magnitude": 0.61
+    },
+    {
+        "name": "Mintaka",
+        "description": "Mintaka",
+        "constellation": "Orion",
+        "type": "double star, eclipsing binary system",
+        "magnitude": 2.40
+    },
+    {
+        "name": "Polaris",
+        "description": "Polaris (North Star)",
+        "constellation": "Ursa Minor",
+        "type": "double star, pulsating variable star",
+        "magnitude": 1.98
+    },
+    {
+        "name": "Pollux",
+        "description": "Pollux",
+        "constellation": "Gemini",
+        "type": "double star",
+        "magnitude": 1.14
+    },
+    {
+        "name": "Procyon",
+        "description": "Procyon",
+        "constellation": "Canis Minor",
+        "type": "double star",
+        "magnitude": 0.34
+    },
+    {
+        "name": "Regulus",
+        "description": "Regulus",
+        "constellation": "Leo",
+        "type": "double star",
+        "magnitude": 1.35
+    },
+    {
+        "name": "Rigel",
+        "description": "Rigel",
+        "constellation": "Orion",
+        "type": "double star, pulsating variable star",
+        "magnitude": 0.13
+    },
+    {
+        "name": "Sirius",
+        "description": "Sirius",
+        "constellation": "Canis Major",
+        "type": "double star",
+        "magnitude": -1.46
+    },
+    {
+        "name": "Spica",
+        "description": "Spica",
+        "constellation": "Virgo",
+        "type": "double star, variable star",
+        "magnitude": 0.97
+    },
+    {
+        "name": "Vega",
+        "description": "Vega",
+        "constellation": "Lyra",
+        "type": "double star, pulsating variable star",
+        "magnitude": 0.026
+    }
+]

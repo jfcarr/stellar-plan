@@ -1,3 +1,6 @@
+import json
+import os
+
 from astropy.coordinates import AltAz, get_body, get_moon
 
 from stellarplan.data.results import ResultObject
@@ -16,16 +19,15 @@ class SolarSystemObject:
 
 def load_sso():
     """
-    Load a list of solar system objects.
+    Load a list of solar system objects
     """
-    solar_system_objects = [
-        SolarSystemObject("moon", "Luna (Earth's Moon)", "moon"),
-        SolarSystemObject("mercury", "Mercury", "planet"),
-        SolarSystemObject("venus", "Venus", "planet"),
-        SolarSystemObject("mars", "Mars", "planet"),
-        SolarSystemObject("jupiter", "Jupiter", "planet"),
-        SolarSystemObject("saturn", "Saturn", "planet"),
-    ]
+    solar_system_objects = []
+
+    with open(
+        os.path.join("stellarplan", "data", "store", "solar_system_objects.json"), "r"
+    ) as file:
+        data = json.load(file)
+        solar_system_objects.extend([SolarSystemObject(**item) for item in data])
 
     return solar_system_objects
 

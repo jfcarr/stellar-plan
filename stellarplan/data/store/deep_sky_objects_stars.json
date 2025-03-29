@@ -119,6 +119,13 @@
         "magnitude": 2.40
     },
     {
+        "name": "Mizar",
+        "description": "Mizar",
+        "constellation": "Ursa Major",
+        "type": "double star",
+        "magnitude": 2.20
+    },
+    {
         "name": "Polaris",
         "description": "Polaris (North Star)",
         "constellation": "Ursa Minor",

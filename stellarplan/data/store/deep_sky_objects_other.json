@@ -1,5 +1,12 @@
 [
     {
+        "name": "M1",
+        "description": "Crab Nebula",
+        "constellation": "Taurus",
+        "type": "nebula",
+        "magnitude": 8.40
+    },
+    {
         "name": "M3",
         "description": "NGC 5272",
         "constellation": "Canes Venatici",
@@ -28,10 +35,73 @@
         "magnitude": 4.00
     },
     {
+        "name": "M43",
+        "description": "Mairan's Nebula",
+        "constellation": "Orion",
+        "type": "nebula",
+        "magnitude": 6.80
+    },
+    {
+        "name": "M44",
+        "description": "Beehive Cluster",
+        "constellation": "Cancer",
+        "type": "open star cluster",
+        "magnitude": 3.10
+    },
+    {
         "name": "M45",
         "description": "Pleiades - Seven Sisters",
         "constellation": "Taurus",
         "type": "cluster (with nebulosity)",
         "magnitude": 1.20
+    },
+    {
+        "name": "M67",
+        "description": "Golden-Eye Cluster",
+        "constellation": "Cancer",
+        "type": "open star cluster",
+        "magnitude": 6.90
+    },
+    {
+        "name": "M51",
+        "description": "Whirlpool Galaxy",
+        "constellation": "Canes Venatici",
+        "type": "galaxy",
+        "magnitude": 8.10
+    },
+    {
+        "name": "M52",
+        "description": "Salt-and-Pepper Cluster",
+        "constellation": "Cassiopeia",
+        "type": "open star cluster",
+        "magnitude": 6.90
+    },
+    {
+        "name": "M101",
+        "description": "Pinwheel Galaxy",
+        "constellation": "Ursa Major",
+        "type": "galaxy",
+        "magnitude": 7.90
+    },
+    {
+        "name": "M105",
+        "description": "M105 Galaxy",
+        "constellation": "Leo",
+        "type": "galaxy",
+        "magnitude": 9.30
+    },
+    {
+        "name": "NGC2237",
+        "description": "Rosette Nebula",
+        "constellation": "Monoceros",
+        "type": "nebula",
+        "magnitude": 9.0
+    },
+    {
+        "name": "NGC7635",
+        "description": "Bubble Nebula",
+        "constellation": "Cassiopeia",
+        "type": "nebula",
+        "magnitude": 10.00
     }
 ]

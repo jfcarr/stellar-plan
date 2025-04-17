@@ -1,7 +1,7 @@
 import json
 import os
 
-from astropy.coordinates import AltAz, get_body, get_moon
+from astropy.coordinates import AltAz, get_body
 
 from stellarplan.data.results import ResultObject
 
@@ -43,7 +43,7 @@ def get_sso_info(
     Get information about a solar system object.
     """
     bodyinfo = (
-        get_moon(observer_time)
+        get_body("moon", observer_time)
         if sso_object.name == "moon"
         else get_body(sso_object.name, observer_time)
     )
